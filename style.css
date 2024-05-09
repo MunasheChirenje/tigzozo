@@ -20,6 +20,7 @@ h2 {
   font-family: "nashe", JosefinSans;
   font-size: 18px;
   font-weight: bold;
+  margin-left: 70px;
 }
 
 h3 {
@@ -193,7 +194,7 @@ p {
 
 .us .media {
   margin-top: 54px;
-  margin-left: 60px;
+  margin-left: 70px;
 }
 .us .img31 {
   margin-top: 90px;
@@ -246,7 +247,7 @@ p {
 }
 
 .tig {
-  margin-left: 45px;
+  margin-left: 70px;
   padding-bottom: 25px;
 }
 
@@ -310,7 +311,7 @@ p {
   font-family: "nashe", JosefinSans;
   font-size: 18px;
   font-weight: bolder;
-  margin-left: 40px;
+  margin-left: 70px;
 }
 
 .fond {

@@ -77,6 +77,7 @@ p{
 
         width: 15%;
         margin-left: 56px;
+        object-fit: contain;
     }
 
 
@@ -263,7 +264,7 @@ margin-left: 3px;
 
         height: 65vh;
         width: 23%;
-        margin-right: 10px;
+        margin-right: 5px;
     }
 
     .couple{
@@ -271,13 +272,13 @@ margin-left: 3px;
         height: 65vh;
         width: 23%;
         margin-bottom:65px ;
-        margin-right: 10px;
+        margin-right: 5px;
     }
 
     .child{
         height: 65vh;
         width: 23%;
-        margin-right: 10px;
+        margin-right: 5px;
 
     }
 
@@ -285,7 +286,7 @@ margin-left: 3px;
         height: 65vh;
         width: 23%;
         margin-bottom:65px ;
-        margin-right: 10px;
+        margin-right: 5px;
 
     }
 
@@ -745,6 +746,21 @@ padding: 60px;
 @media (max-width:576px) {
 .navigation{
 
+
+    .menu__btn{
+
+        top: 37px;
+        left: 315px;
+    }
+
+
+
+    .logo{
+
+        width: 40%;
+        margin-left: 15px;
+    }
+
     .links{
 
         display: none;
@@ -760,6 +776,12 @@ padding: 60px;
 }
 
 .banner{
+
+
+    .images{
+
+        display: flex;
+    }
 
     display: block;
     .couple{
@@ -778,13 +800,14 @@ padding: 60px;
         width: 40%;
         height: 50vh;
         margin-right: 42px;
-        margin-left: 13px;
+        margin-left: 45px;
     }
 
     .student{
 
         width: 40%;
         height: 50vh;
+        margin-left: -27px;
     }
 
 
@@ -799,6 +822,7 @@ padding: 60px;
         h1{
 
             font-size: 25px;
+            margin-top: -32px;
         }
     
     
@@ -808,6 +832,11 @@ padding: 60px;
 
   
 .us{
+
+    .clients{
+
+        margin-left: 2px;
+    }
 
     .media{
 margin-left: 16px;
@@ -823,7 +852,17 @@ margin-left: 16px;
     .img31{
 
         margin-left: 30px;
-        margin-top: -133px;
+        margin-top: -152px;
+        width: 45%;
+    }
+
+
+
+    .img32{
+
+        margin-top: -32px;
+        // margin-top: -206px;
+        width: 45%;
     }
 
 
@@ -848,13 +887,15 @@ margin-left: 16px;
 
 .img21{
 
-    right: 147px;
-    bottom: -1073px;
+    right: 200px;
+    bottom: -963px;
+    width: 10%;
 }
 
 
 .img9{
     width: 100%;
+    margin-top: -144px;
 }
 
 
@@ -864,6 +905,12 @@ margin-left: 16px;
     .Find{
 
         padding: 7px;
+    }
+
+
+    p{
+        margin-top: -31px;
+        
     }
 }
         
@@ -892,7 +939,7 @@ margin-left: 16px;
     .img29{
 
         left: 78%;
-        top: 332%;
+        top: 313%;
         width: 6%;
     }
 
@@ -901,11 +948,11 @@ margin-left: 16px;
 
         width:6%;
         left: 78%;
-        top: 392%;
+        top: 373%;
     }
 
     .event{
-top: 361%;
+top: 341%;
 right: 39%;
 
     }
@@ -913,13 +960,13 @@ right: 39%;
 
     .media2{
         right: 39%;
-        top: 483%;
+        top: 464%;
     }
 
     .img28{
 
         left: 78%;
-        top: 455%;
+        top: 436%;
         width: 6%;
     }
 .img15{
@@ -944,6 +991,12 @@ right: 39%;
 }
 
 
+.h3{
+
+    margin-left: 14px;
+}
+
+
 .tig{
 
     margin-top: 56px;
@@ -951,18 +1004,24 @@ right: 39%;
 }
 
 .fond{
+.tendai{
+    margin-top: 50px;
+    margin-left: 2px;
+
+}
+    
 
     .img10t{
 
         left: 88%;
-        top: 629%;
+        top: 606%;
         width: 8%;
     }
 
     .img10u{
 
         right: 4%;
-        top: 548%;
+        top: 525%;
         width: 8%;
     }
 
@@ -1023,6 +1082,13 @@ display: flex;
 
     .navigation{
 
+
+
+        .logo{
+
+            width: 20%;
+        }
+
         .links{
             margin-top: 42px;
         }
@@ -1082,12 +1148,18 @@ display: flex;
 
     .images{
 
-        margin-left: 100px;
+        margin-left: 53px;
+        margin-right: 0px;
     }
 }
 
 .us{
+.outstanding{
 
+    h1{
+        font-size: 28px;
+    }
+}
   
 
 
@@ -1100,6 +1172,12 @@ display: flex;
     .process{
 
         margin-top: 13px;
+        margin-right: 5px;
+
+        p{
+
+            margin-top: 16px;
+        }
 
 
         .Find{
@@ -1116,8 +1194,9 @@ display: flex;
 
     .img21{
 
-        right: 162px;
-        bottom: 54px;
+        right: 170px;
+        bottom: 115px;
+        width: 6%;
     }
 
 
@@ -1138,7 +1217,8 @@ display: flex;
     .media{
 
         margin-top: -35px;
-        font-size: 32px;
+        font-size: 24px;
+        margin-left: 41px;
     }
 
 
@@ -1161,10 +1241,10 @@ display: flex;
 
 
         
-    //     .clients{
+        .clients{
     
-    //         display: flex;
-    //     }
+            margin-left: -5px;
+        }
     
     //     }
 
@@ -1182,29 +1262,29 @@ display: flex;
   .serve{
 
     img{
-        width: 100%;
+        width: 32%;
     }
 
-
-    display: block;
+margin-top: -241px;
+    display: flex;
 
 
 
     .digital{
 
         width: 76%;
-        margin-left: 85px;
-        margin-top: 20px;
-        line-height: 62px;
-        height: 69vh;
+        margin-left: 4px;
+        margin-top: 259px;
+        line-height: 29px;
+        height: 34vh;
     }
 
 
     .event{
 
-        top: 343%;
-        right: 47%;
-        font-size: 25px;
+        top: 190%;
+        right: 76%;
+        font-size: 23px;
     }
 
 
@@ -1214,43 +1294,45 @@ display: flex;
 
     .img10{
         margin-top: 20px;
+        margin-left: 5px;
     }
 
 
     .img29{
 
-        top: 304%;
-        left: 79%;
-        width: 5%;
+        top: 151%;
+        left: 29%;
+        width: 4%;
     }
 
 
     
     .img28{
 
-        top: 456%;
-        left: 79%;
-        width: 5%;
+        top: 151%;
+        left: 91%;
+        width: 4%;
     }
 
     .img22{
 
-        top: 374%;
-        left: 79%;
-        width: 5%;
+        top: 151%;
+        left: 61%;
+        width: 4%;
     }
 
 
     .media2{
 
-        top: 495%;
-        right: 41%;
-        font-size: 25px;
+        top: 190%;
+        right: 16%;
+        font-size: 23px;
     }
   }   
 .h3{
 
     font-size: 25px;
+    margin-top: -145px;
 }
 
   .fond{
@@ -1275,6 +1357,33 @@ display: flex;
 
         font-size: 16px;
     }
+
+
+
+
+    .img10u{
+
+        width: 4%;
+        top: 233%;
+        right: 9%;
+    }
+
+    .tendai{
+
+        margin-top:69px ;
+        margin-left: 30px;
+    }
+
+
+
+    .img10t{
+
+        width: 4%;
+        top: 233%;
+        left: 46%;
+    }
+
+    
 
     .miranda{
         margin-top: 72px;
@@ -1325,6 +1434,30 @@ display: flex;
         .images{
             width: 55%;
         }
+
+
+
+        
+    .bride{
+        width: 20%;
+    }
+
+
+    .child{
+        width: 20%;
+        
+    }
+
+
+    .couple{
+        width: 20%;
+    }
+
+
+    .student{
+        width: 20%;
+    }
+
     }
 
 
@@ -1347,18 +1480,18 @@ display: flex;
 
 
         .img31{
-            width: 29%;
-            margin-top: -44px;
+            width: 23%;
+            margin-top: -156px;
         }
 
         .img32{
-            width: 29%;
+            width: 23%;
             margin-top: -343px;
         }
 
 
         .img21{
-            right:159px ;
+            right:238px ;
             bottom: 528px;
         }
     }
@@ -1369,16 +1502,27 @@ display: flex;
 
     .serve{
 
+
+
+        .img10{
+            margin-left: 12px;
+        }
+
+        .img15{
+
+            margin-right: 12px;
+        }
+
         margin-top: -270px;
 
 
         .event{
-top: 160%;
+top: 149%;
         }
         
 
         .media2{
-top: 160%;
+top: 149%;
 
         }
 
@@ -1391,20 +1535,20 @@ top: 160%;
 
         .img29{
             // left: 92% ;
-            top: 121%;
+            top: 109%;
             width: 4%;
         }
 
 
         .img28{
             left: 92% ;
-            top: 120%;
+            top: 109%;
             width: 4%;
         }
 
         .img22{
             // left: 92% ;
-            top: 121%;
+            top: 110%;
             width: 4%;
         }
     }
@@ -1418,58 +1562,17 @@ top: 160%;
     .fond{
 
         .img10t{
-            left: 34% ;
-            top: 193%;
+            left: 47% ;
+            top: 185%;
             
         }
 
         .img10u{
-            right: 18% ;
-        top: 189%;
+            right: 10% ;
+        top: 180%;
             
         }
 
     }
 }
 
-
-
-
-// @media (prefers-color-scheme: dark) {
-//     body { background: #333; color: white; } 
-// }
-// :root {
-//     --color-primary: #000; 
-//     --color-background: #fff; 
-// }
-
-// @media (prefers-color-scheme: dark) {
-//     --color-primary: #fff; 
-//     --color-background: #000;
-// }
-
-// body { 
-//     background-color: var(--color-background); 
-//     color: var(--color-primary); 
-// }
-
-// h1 {
-//     color: var(--color-primary);
-// }
-
-// @media (prefers-color-scheme: dark) {
-//     body { background: #333; color: white; } 
-// }
-// :root {
-//     --color-primary: #000; 
-//     --color-background: #fff; 
-// }
-
-// @media (prefers-color-scheme: dark) {
-//     --color-primary: #fff; 
-//     --color-background: #000;
-// }
-
-
-
-  

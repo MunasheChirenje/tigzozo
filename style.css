@@ -55,6 +55,8 @@ p {
 .navigation .logo {
   width: 15%;
   margin-left: 56px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .navigation img {
   margin-top: 20px;
@@ -169,24 +171,24 @@ p {
 .banner .bride {
   height: 65vh;
   width: 23%;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .banner .couple {
   height: 65vh;
   width: 23%;
   margin-bottom: 65px;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .banner .child {
   height: 65vh;
   width: 23%;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .banner .student {
   height: 65vh;
   width: 23%;
   margin-bottom: 65px;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .banner .images {
   margin-right: 60px;
@@ -525,6 +527,14 @@ p {
   }
 }
 @media (max-width: 576px) {
+  .navigation .menu__btn {
+    top: 37px;
+    left: 315px;
+  }
+  .navigation .logo {
+    width: 40%;
+    margin-left: 15px;
+  }
   .navigation .links {
     display: none;
   }
@@ -533,6 +543,9 @@ p {
   }
   .banner {
     display: block;
+  }
+  .banner .images {
+    display: flex;
   }
   .banner .couple {
     display: none;
@@ -544,11 +557,12 @@ p {
     width: 40%;
     height: 50vh;
     margin-right: 42px;
-    margin-left: 13px;
+    margin-left: 45px;
   }
   .banner .student {
     width: 40%;
     height: 50vh;
+    margin-left: -27px;
   }
   .banner .outstanding {
     margin-left: 20px;
@@ -556,6 +570,10 @@ p {
   }
   .banner .outstanding h1 {
     font-size: 25px;
+    margin-top: -32px;
+  }
+  .us .clients {
+    margin-left: 2px;
   }
   .us .media {
     margin-left: 16px;
@@ -565,7 +583,12 @@ p {
   }
   .us .img31 {
     margin-left: 30px;
-    margin-top: -133px;
+    margin-top: -152px;
+    width: 45%;
+  }
+  .us .img32 {
+    margin-top: -32px;
+    width: 45%;
   }
   .us .img {
     margin-bottom: 60px;
@@ -578,14 +601,19 @@ p {
     top: 210%;
   }
   .us .img21 {
-    right: 147px;
-    bottom: -1073px;
+    right: 200px;
+    bottom: -963px;
+    width: 10%;
   }
   .us .img9 {
     width: 100%;
+    margin-top: -144px;
   }
   .us .process .Find {
     padding: 7px;
+  }
+  .us .process p {
+    margin-top: -31px;
   }
   .serve {
     display: block;
@@ -603,25 +631,25 @@ p {
   }
   .serve .img29 {
     left: 78%;
-    top: 332%;
+    top: 313%;
     width: 6%;
   }
   .serve .img22 {
     width: 6%;
     left: 78%;
-    top: 392%;
+    top: 373%;
   }
   .serve .event {
-    top: 361%;
+    top: 341%;
     right: 39%;
   }
   .serve .media2 {
     right: 39%;
-    top: 483%;
+    top: 464%;
   }
   .serve .img28 {
     left: 78%;
-    top: 455%;
+    top: 436%;
     width: 6%;
   }
   .serve .img15 {
@@ -631,6 +659,9 @@ p {
   .serve .img10 {
     margin-top: 20px;
   }
+  .h3 {
+    margin-left: 14px;
+  }
   .tig {
     margin-top: 56px;
     margin-left: 16px;
@@ -638,14 +669,18 @@ p {
   .fond {
     display: block;
   }
+  .fond .tendai {
+    margin-top: 50px;
+    margin-left: 2px;
+  }
   .fond .img10t {
     left: 88%;
-    top: 629%;
+    top: 606%;
     width: 8%;
   }
   .fond .img10u {
     right: 4%;
-    top: 548%;
+    top: 525%;
     width: 8%;
   }
   .fond img {
@@ -679,6 +714,9 @@ p {
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {
+  .navigation .logo {
+    width: 20%;
+  }
   .navigation .links {
     margin-top: 42px;
   }
@@ -715,13 +753,21 @@ p {
     width: 43%;
   }
   .banner .images {
-    margin-left: 100px;
+    margin-left: 53px;
+    margin-right: 0px;
+  }
+  .us .outstanding h1 {
+    font-size: 28px;
   }
   .us .img31 {
     display: none;
   }
   .us .process {
     margin-top: 13px;
+    margin-right: 5px;
+  }
+  .us .process p {
+    margin-top: 16px;
   }
   .us .process .Find {
     padding: 12px;
@@ -730,8 +776,9 @@ p {
     font-size: 16px;
   }
   .us .img21 {
-    right: 162px;
-    bottom: 54px;
+    right: 170px;
+    bottom: 115px;
+    width: 6%;
   }
   .us .p6 {
     margin-top: 36px;
@@ -742,7 +789,8 @@ p {
   }
   .us .media {
     margin-top: -35px;
-    font-size: 32px;
+    font-size: 24px;
+    margin-left: 41px;
   }
   .us .img32 {
     margin-top: -86px;
@@ -751,6 +799,9 @@ p {
   }
   .us .img9 {
     width: 100%;
+  }
+  .us .clients {
+    margin-left: -5px;
   }
   .us .Find {
     margin-bottom: 49px;
@@ -761,51 +812,54 @@ p {
     margin-top: -151px;
   }
   .serve {
-    display: block;
+    margin-top: -241px;
+    display: flex;
   }
   .serve img {
-    width: 100%;
+    width: 32%;
   }
   .serve .digital {
     width: 76%;
-    margin-left: 85px;
-    margin-top: 20px;
-    line-height: 62px;
-    height: 69vh;
+    margin-left: 4px;
+    margin-top: 259px;
+    line-height: 29px;
+    height: 34vh;
   }
   .serve .event {
-    top: 343%;
-    right: 47%;
-    font-size: 25px;
+    top: 190%;
+    right: 76%;
+    font-size: 23px;
   }
   .serve .img15 {
     margin-top: 20px;
   }
   .serve .img10 {
     margin-top: 20px;
+    margin-left: 5px;
   }
   .serve .img29 {
-    top: 304%;
-    left: 79%;
-    width: 5%;
+    top: 151%;
+    left: 29%;
+    width: 4%;
   }
   .serve .img28 {
-    top: 456%;
-    left: 79%;
-    width: 5%;
+    top: 151%;
+    left: 91%;
+    width: 4%;
   }
   .serve .img22 {
-    top: 374%;
-    left: 79%;
-    width: 5%;
+    top: 151%;
+    left: 61%;
+    width: 4%;
   }
   .serve .media2 {
-    top: 495%;
-    right: 41%;
-    font-size: 25px;
+    top: 190%;
+    right: 16%;
+    font-size: 23px;
   }
   .h3 {
     font-size: 25px;
+    margin-top: -145px;
   }
   .fond {
     display: flex;
@@ -822,6 +876,20 @@ p {
   }
   .fond p {
     font-size: 16px;
+  }
+  .fond .img10u {
+    width: 4%;
+    top: 233%;
+    right: 9%;
+  }
+  .fond .tendai {
+    margin-top: 69px;
+    margin-left: 30px;
+  }
+  .fond .img10t {
+    width: 4%;
+    top: 233%;
+    left: 46%;
   }
   .fond .miranda {
     margin-top: 72px;
@@ -852,6 +920,18 @@ p {
   .banner .images {
     width: 55%;
   }
+  .banner .bride {
+    width: 20%;
+  }
+  .banner .child {
+    width: 20%;
+  }
+  .banner .couple {
+    width: 20%;
+  }
+  .banner .student {
+    width: 20%;
+  }
   .us .process {
     margin-left: -360px;
   }
@@ -862,15 +942,15 @@ p {
     margin-top: -166px;
   }
   .us .img31 {
-    width: 29%;
-    margin-top: -44px;
+    width: 23%;
+    margin-top: -156px;
   }
   .us .img32 {
-    width: 29%;
+    width: 23%;
     margin-top: -343px;
   }
   .us .img21 {
-    right: 159px;
+    right: 238px;
     bottom: 528px;
   }
   .tig {
@@ -879,11 +959,17 @@ p {
   .serve {
     margin-top: -270px;
   }
+  .serve .img10 {
+    margin-left: 12px;
+  }
+  .serve .img15 {
+    margin-right: 12px;
+  }
   .serve .event {
-    top: 160%;
+    top: 149%;
   }
   .serve .media2 {
-    top: 160%;
+    top: 149%;
   }
   .serve .digital {
     margin-top: 291px;
@@ -891,27 +977,27 @@ p {
     line-height: 46px;
   }
   .serve .img29 {
-    top: 121%;
+    top: 109%;
     width: 4%;
   }
   .serve .img28 {
     left: 92%;
-    top: 120%;
+    top: 109%;
     width: 4%;
   }
   .serve .img22 {
-    top: 121%;
+    top: 110%;
     width: 4%;
   }
   .h3 {
     margin-top: -173px;
   }
   .fond .img10t {
-    left: 34%;
-    top: 193%;
+    left: 47%;
+    top: 185%;
   }
   .fond .img10u {
-    right: 18%;
-    top: 189%;
+    right: 10%;
+    top: 180%;
   }
 }/*# sourceMappingURL=style.css.map */

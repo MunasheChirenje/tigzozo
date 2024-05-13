@@ -92,7 +92,7 @@ p {
   font-family: "nashe", JosefinSans;
 }
 .navigation a {
-  color: #000;
+  color: black;
 }
 .navigation .img18 {
   right: 180px;
@@ -719,10 +719,10 @@ p {
     justify-content: space-between;
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 17px;
   }
   .footer .row .column {
-    margin-bottom: 45px;
+    margin-bottom: 10px;
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {

@@ -254,12 +254,13 @@ p {
 }
 
 .serve {
+  position: relative;
   display: flex;
 }
 .serve .event {
   position: absolute;
-  top: 301%;
-  right: 75%;
+  top: 94%;
+  right: 80%;
   color: white;
 }
 .serve img {
@@ -284,27 +285,27 @@ p {
   text-decoration: underline;
 }
 .serve .img29 {
-  left: 33%;
-  top: 262%;
+  left: 29%;
+  top: 47%;
   width: 2%;
   position: absolute;
 }
 .serve .img28 {
-  left: 88%;
-  top: 262%;
+  left: 96%;
+  top: 47%;
   width: 2%;
   position: absolute;
 }
 .serve .img22 {
-  left: 62%;
-  top: 262%;
+  left: 64%;
+  top: 47%;
   width: 2%;
   position: absolute;
 }
 .serve .media2 {
   position: absolute;
-  top: 301%;
-  right: 20%;
+  top: 94%;
+  right: 15%;
   color: white;
 }
 
@@ -317,6 +318,7 @@ p {
 }
 
 .fond {
+  position: relative;
   padding-bottom: 56px;
   display: flex;
   flex-direction: row;
@@ -326,13 +328,13 @@ p {
 }
 .fond .img10t {
   left: 47%;
-  top: 379%;
+  top: 52%;
   width: 3%;
   position: absolute;
 }
 .fond .img10u {
-  right: 14%;
-  top: 370%;
+  right: 7%;
+  top: 44%;
   width: 3%;
   position: absolute;
 }
@@ -597,24 +599,27 @@ p {
   .us .container {
     display: block;
   }
-  .us .p6 {
-    position: absolute;
-    top: 210%;
+  .us .process {
+    position: relative;
   }
-  .us .img21 {
-    right: 200px;
-    bottom: -885px;
-    width: 10%;
-  }
-  .us .img9 {
+  .us .process .img9 {
     width: 100%;
-    margin-top: -144px;
+    margin-top: -21px;
+  }
+  .us .process .p6 {
+    position: absolute;
+    top: -62%;
   }
   .us .process .Find {
     padding: 7px;
   }
   .us .process p {
     margin-top: -112px;
+  }
+  .us .process .img21 {
+    right: 101px;
+    bottom: 163px;
+    width: 10%;
   }
   .serve {
     display: block;

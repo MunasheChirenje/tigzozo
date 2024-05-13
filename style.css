@@ -66,7 +66,6 @@ p {
 }
 .navigation .About {
   text-decoration: none;
-  color: #000;
   margin-right: 45px;
   font-size: 18px;
   margin-top: 3px;
@@ -86,12 +85,14 @@ p {
   margin-top: 3px;
 }
 .navigation .Testimonials {
-  color: #000;
   margin-right: 250px;
   text-decoration: none;
   font-size: 18px;
   margin-top: 3px;
   font-family: "nashe", JosefinSans;
+}
+.navigation a {
+  color: #000;
 }
 .navigation .img18 {
   right: 180px;
@@ -121,7 +122,6 @@ p {
 }
 .banner .outstanding .watch {
   display: flex;
-  align-items: center;
   margin-left: 3px;
   margin-top: 12px;
 }

@@ -577,6 +577,7 @@ p {
   }
   .us .media {
     margin-left: 16px;
+    margin-top: -22px;
   }
   .us .dedicated {
     margin-top: 30px;
@@ -602,7 +603,7 @@ p {
   }
   .us .img21 {
     right: 200px;
-    bottom: -963px;
+    bottom: -885px;
     width: 10%;
   }
   .us .img9 {
@@ -613,7 +614,7 @@ p {
     padding: 7px;
   }
   .us .process p {
-    margin-top: -31px;
+    margin-top: -112px;
   }
   .serve {
     display: block;
@@ -631,25 +632,25 @@ p {
   }
   .serve .img29 {
     left: 78%;
-    top: 313%;
+    top: 302%;
     width: 6%;
   }
   .serve .img22 {
     width: 6%;
     left: 78%;
-    top: 373%;
+    top: 362%;
   }
   .serve .event {
-    top: 341%;
+    top: 330%;
     right: 39%;
   }
   .serve .media2 {
     right: 39%;
-    top: 464%;
+    top: 453%;
   }
   .serve .img28 {
     left: 78%;
-    top: 436%;
+    top: 425%;
     width: 6%;
   }
   .serve .img15 {
@@ -675,12 +676,12 @@ p {
   }
   .fond .img10t {
     left: 88%;
-    top: 606%;
+    top: 594%;
     width: 8%;
   }
   .fond .img10u {
     right: 4%;
-    top: 525%;
+    top: 513%;
     width: 8%;
   }
   .fond img {
@@ -711,6 +712,17 @@ p {
   }
   .pictures .img20 {
     display: none;
+  }
+  .footer .row {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+  }
+  .footer .row .column {
+    margin-bottom: 45px;
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {
@@ -999,5 +1011,60 @@ p {
   .fond .img10u {
     right: 10%;
     top: 180%;
+  }
+}
+@media only screen and (min-width: 1399.98px) {
+  .navigation .About {
+    font-size: 22px;
+  }
+  .navigation .Services {
+    font-size: 22px;
+  }
+  .navigation .Testimonials {
+    font-size: 22px;
+  }
+  .us .process .Find {
+    width: 34%;
+  }
+  .us .img31 {
+    margin-top: 23px;
+  }
+  .us .img32 {
+    margin-bottom: 89px;
+    margin-top: -44px;
+  }
+  .serve img {
+    height: 70vh;
+  }
+  .serve .digital {
+    height: 70vh;
+  }
+  .serve .img28 {
+    left: 90%;
+    top: 235%;
+  }
+  .serve .img22 {
+    left: 63%;
+    top: 235%;
+  }
+  .serve .media2 {
+    top: 268%;
+    font-size: 22px;
+  }
+  .serve .img29 {
+    left: 30%;
+    top: 235%;
+  }
+  .serve .event {
+    top: 268%;
+    font-size: 23px;
+  }
+  .fond .img10t {
+    left: 45%;
+    top: 337%;
+  }
+  .fond .img10u {
+    right: 12%;
+    top: 331%;
   }
 }/*# sourceMappingURL=style.css.map */

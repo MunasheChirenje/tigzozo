@@ -1021,6 +1021,9 @@ p {
   }
 }
 @media only screen and (min-width: 1399.98px) {
+  .navigation .logo {
+    width: 20%;
+  }
   .navigation .About {
     font-size: 22px;
   }
@@ -1029,6 +1032,9 @@ p {
   }
   .navigation .Testimonials {
     font-size: 22px;
+  }
+  .navigation .links {
+    margin-top: 46px;
   }
   .us .process .Find {
     width: 34%;
@@ -1047,31 +1053,37 @@ p {
     height: 70vh;
   }
   .serve .img28 {
-    left: 90%;
-    top: 235%;
+    left: 95%;
+    top: 47%;
   }
   .serve .img22 {
-    left: 63%;
-    top: 235%;
+    left: 65%;
+    top: 47%;
   }
   .serve .media2 {
-    top: 268%;
+    top: 94%;
     font-size: 22px;
   }
   .serve .img29 {
-    left: 30%;
-    top: 235%;
+    left: 28%;
+    top: 47%;
   }
   .serve .event {
-    top: 268%;
+    top: 94%;
     font-size: 23px;
   }
   .fond .img10t {
     left: 45%;
-    top: 337%;
+    top: 54%;
   }
   .fond .img10u {
-    right: 12%;
-    top: 331%;
+    right: 8%;
+    top: 48%;
+  }
+  .pictures img {
+    width: 12%;
+  }
+  .tigzozo {
+    margin-bottom: 56px;
   }
 }/*# sourceMappingURL=style.css.map */

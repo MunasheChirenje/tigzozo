@@ -586,11 +586,12 @@ p {
   }
   .us .img31 {
     margin-left: 30px;
-    margin-top: -152px;
+    margin-top: 0px;
     width: 45%;
   }
   .us .img32 {
-    margin-top: -32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     width: 45%;
   }
   .us .img {
@@ -604,11 +605,12 @@ p {
   }
   .us .process .img9 {
     width: 100%;
-    margin-top: -21px;
+    margin-top: 60px;
   }
   .us .process .p6 {
     position: absolute;
-    top: -62%;
+    top: -52%;
+    margin-top: 0px;
   }
   .us .process .Find {
     padding: 7px;

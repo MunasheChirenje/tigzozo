@@ -40,7 +40,7 @@
 
    <div class="links"> 
 
-<a href="#About-us" class="About">About Us</a>
+<a href="#About" class="About">About Us</a>
 <a href="#Services" class="Services">Services<svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><path fill="currentColor" d="m12 15l-4.243-4.242l1.415-1.414L12 12.172l2.828-2.828l1.415 1.414z"/></svg></a>
 <a href="#Testimonials" class="Testimonials">Testimonials</a>
 
@@ -49,7 +49,7 @@
 </div>
 
 
-<div class="hamburger-menu">
+<!-- <div class="hamburger-menu">
     <input id="menu__toggle" type="checkbox" />
     <label class="menu__btn" for="menu__toggle">
       <span></span>
@@ -60,8 +60,28 @@
       <li><a class="menu__item" href="#">Services</a></li>
       <li><a class="menu__item" href="#">Testimonials</a></li>
     </ul>
-  </div>
+  </div> -->
 
+
+  <div id="menuArea">
+    <input type="checkbox" id="menuToggle"></input>
+  
+  <label for="menuToggle" class="menuOpen">
+    <div class="open"></div>
+  </label>
+  
+  <div class="menu menuEffects">
+    <label for="menuToggle"></label>
+    <div class="menuContent">
+      <ul>
+        <li><a href="#About">About us</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Testimonials">Testimonials</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  </div>
 
  
 

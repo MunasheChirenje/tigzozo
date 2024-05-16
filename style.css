@@ -546,25 +546,35 @@ p {
   .banner {
     display: block;
   }
+  .banner .outstanding .buttons {
+    margin-top: 5px;
+  }
+  .banner .outstanding .watch {
+    margin-top: 29px;
+  }
   .banner .images {
     display: flex;
   }
   .banner .couple {
-    display: none;
+    width: 35%;
+    margin-bottom: 65px;
+    margin-right: 7px;
+    margin-left: -31px;
+    margin-top: -49px;
   }
   .banner .child {
     display: none;
   }
   .banner .bride {
-    width: 40%;
+    width: 35%;
     height: 50vh;
     margin-right: 42px;
-    margin-left: 45px;
+    margin-left: 10px;
   }
   .banner .student {
-    width: 40%;
+    width: 35%;
     height: 50vh;
-    margin-left: -27px;
+    margin-left: 3px;
   }
   .banner .outstanding {
     margin-left: 20px;
@@ -579,7 +589,7 @@ p {
   }
   .us .media {
     margin-left: 16px;
-    margin-top: -22px;
+    margin-top: -71px;
   }
   .us .dedicated {
     margin-top: 30px;
@@ -605,12 +615,13 @@ p {
   }
   .us .process .img9 {
     width: 100%;
-    margin-top: 60px;
+    margin-top: -24px;
   }
   .us .process .p6 {
     position: absolute;
     top: -52%;
-    margin-top: 0px;
+    margin-top: -38px;
+    width: 142%;
   }
   .us .process .Find {
     padding: 7px;
@@ -628,24 +639,24 @@ p {
   }
   .serve img {
     width: 100%;
-    height: 60vh;
+    height: 76vh;
   }
   .serve .digital {
     display: flex;
-    width: 75%;
-    margin-left: 46px;
-    line-height: 33px;
-    height: 57vh;
+    width: 94%;
+    margin-left: 11px;
+    line-height: 43px;
+    height: 76vh;
   }
   .serve .img29 {
-    left: 80%;
+    left: 88%;
     top: 82%;
-    width: 6%;
+    width: 8%;
   }
   .serve .img22 {
-    width: 6%;
-    left: 80%;
-    top: 48%;
+    width: 8%;
+    left: 89%;
+    top: 49%;
   }
   .serve .event {
     top: 31%;
@@ -656,9 +667,9 @@ p {
     top: 98%;
   }
   .serve .img28 {
-    left: 80%;
+    left: 89%;
     top: 15%;
-    width: 6%;
+    width: 8%;
   }
   .serve .img15 {
     margin-right: 10px;
@@ -675,6 +686,7 @@ p {
     margin-left: 16px;
   }
   .fond {
+    margin-bottom: -30px;
     display: block;
   }
   .fond .tendai {
@@ -702,11 +714,15 @@ p {
     display: flex;
     display: block;
     justify-content: center;
+    margin-top: 45px;
   }
   .pictures img {
     width: 45%;
     -o-object-fit: contain;
        object-fit: contain;
+  }
+  .pictures .img47 {
+    margin-top: -3px;
   }
   .pictures .img28 {
     display: none;
@@ -729,6 +745,21 @@ p {
     margin-left: 17px;
   }
   .footer .row .column {
+    margin-bottom: 10px;
+  }
+  .footer .column1 {
+    margin-bottom: 10px;
+  }
+  .footer .column2 {
+    margin-bottom: 10px;
+    margin-top: -134px;
+    margin-left: 184px;
+  }
+  .footer .column3 {
+    margin-bottom: 10px;
+    margin-top: 29px;
+  }
+  .footer .column4 {
     margin-bottom: 10px;
   }
 }

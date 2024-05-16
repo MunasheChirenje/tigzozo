@@ -787,6 +787,18 @@ padding: 60px;
 }
 
 .banner{
+.outstanding{
+
+    .buttons{
+        margin-top: 5px;
+    }
+
+    .watch{
+        margin-top: 29px;
+    }
+    
+}
+    
 
 
     .images{
@@ -797,7 +809,11 @@ padding: 60px;
     display: block;
     .couple{
 
-        display: none;
+        width: 35%;
+        margin-bottom: 65px;
+        margin-right: 7px;
+        margin-left: -31px;
+        margin-top: -49px;
     }
 
     .child{
@@ -808,17 +824,17 @@ padding: 60px;
 
     .bride{
 
-        width: 40%;
+        width: 35%;
         height: 50vh;
         margin-right: 42px;
-        margin-left: 45px;
+        margin-left: 10px;
     }
 
     .student{
 
-        width: 40%;
+        width: 35%;
         height: 50vh;
-        margin-left: -27px;
+        margin-left: 3px;
     }
 
 
@@ -851,7 +867,7 @@ padding: 60px;
 
     .media{
 margin-left: 16px;
-margin-top: -22px;
+margin-top: -71px;
 
     }
 
@@ -907,7 +923,7 @@ margin-top: -22px;
 
     .img9{
         width: 100%;
-        margin-top: 60px;
+        margin-top: -24px;
     }
 
 
@@ -915,7 +931,8 @@ margin-top: -22px;
 
         position: absolute;
         top: -52%;
-        margin-top: 0px;
+        margin-top: -38px;
+        width: 142%;
     }
 
 
@@ -952,31 +969,31 @@ margin-top: -22px;
     img{
 
         width: 100%;
-        height: 60vh;
+        height: 76vh;
     }
 
 .digital{
 
     display: flex;
-    width: 75%;
-    margin-left: 46px;
-    line-height: 33px;
-    height: 57vh;
+    width: 94%;
+    margin-left: 11px;
+    line-height: 43px;
+    height: 76vh;
 }
 
     .img29{
 
-        left: 80%;
+        left: 88%;
         top: 82%;
-        width: 6%;
+        width: 8%;
     }
 
 
     .img22{
 
-        width:6%;
-        left: 80%;
-        top: 48%;
+        width:8%;
+        left: 89%;
+        top: 49%;
     }
 
     .event{
@@ -993,9 +1010,9 @@ right: 39%;
 
     .img28{
 
-        left: 80%;
+        left: 89%;
         top: 15%;
-        width: 6%;
+        width: 8%;
     }
 .img15{
 
@@ -1032,6 +1049,9 @@ right: 39%;
 }
 
 .fond{
+
+
+    margin-bottom: -30px;
 .tendai{
     margin-top: 50px;
     margin-left: 2px;
@@ -1072,10 +1092,17 @@ right: 39%;
 display: flex;
     display: block;
     justify-content: center;
+
+    margin-top: 45px;
     img{
 
         width: 45%;
         object-fit: contain;
+    }
+
+    .img47{
+
+        margin-top: -3px;
     }
     
 
@@ -1117,6 +1144,29 @@ display: flex;
 
             margin-bottom: 10px;
         }
+    }
+
+    .column1{
+
+        margin-bottom: 10px;
+    }
+
+    .column2{
+
+        margin-bottom: 10px;
+        margin-top: -134px;
+        margin-left: 184px;
+    }
+
+    .column3{
+
+        margin-bottom: 10px;
+        margin-top: 29px;
+    }
+
+    .column4{
+
+        margin-bottom: 10px;
     }
 }
 
